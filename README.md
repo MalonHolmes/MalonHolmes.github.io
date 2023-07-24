@@ -12,7 +12,7 @@ The main objective of this project is to showcase my diverse background and expe
 - [x] A gradient background that dynamically changes with scrolling, transitioning through different color schemes for each section.
 - [ ] Implementation of various subtle icons and animations (lightning, stars, clouds, spirals, etc.) to enhance the overall aesthetic.
 - [ ] Bold borders framing the entire page for a distinct and modern look.
-- [ ] - Interactive project section:
+- Interactive project section:
   - [ ] On hover, the background of each project dims, and the project name fades in to provide a seamless user experience.
   - [ ] On click, visitors are directed to individual project blog pages that contain detailed information about each project.
   - [ ] Each project also includes a link to its corresponding GitHub repository.
