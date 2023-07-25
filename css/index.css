@@ -1,11 +1,19 @@
+html {
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
 
 header {
-    background-color: #333;
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -19,4 +27,41 @@ nav ul {
 
 nav li {
     display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+section {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#main {
+    background-color: crimson;
+}
+
+#about {
+    background-color: violet;
+}
+
+#projects {
+    background-color: gold;
+}
+
+#contact {
+    background-color: skyblue;
 }
